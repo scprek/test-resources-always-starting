@@ -1,0 +1,10 @@
+datasources:
+  test-db:
+    url: jdbc:postgresql://<test-path>/test?currentSchema=test
+    username: test
+    password: test
+redis:
+  uris: "redis://<path>"
+kafka:
+  bootstrap:
+    servers: "<servers>"

@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: testResourcesAlwaysStarting
+datasources:
+  test-db:
+    driver-class-name: org.postgresql.Driver
+    dialect: POSTGRES
+netty:
+  default:
+    allocator:
+      max-order: 3
+redis:
+  caches:
+    test:
+      quote-expiration-mills: 300000 # 5 min
+      valueSerializer: io.micronaut.jackson.serialize.JacksonObjectSerializer
+kafka:
+  consumers:
+    test:
+      topic: "test"
