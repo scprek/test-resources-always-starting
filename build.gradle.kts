@@ -65,9 +65,6 @@ micronaut {
         incremental(true)
         annotations("com.example.*")
     }
-    testResources {
-        sharedServer.set(true)
-    }
 }
 
 
