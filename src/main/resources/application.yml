@@ -3,7 +3,7 @@ micronaut:
     name: testResourcesAlwaysStarting
 datasources:
   test-db:
-    driver-class-name: org.postgresql.Driver
+    driverClassName: org.postgresql.Driver
     dialect: POSTGRES
 netty:
   default:

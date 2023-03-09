@@ -39,7 +39,7 @@ dependencies {
 
 
 application {
-    mainClass.set("com.example.ApplicationKt")
+    mainClass.set("com.example.Application")
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("11")
